@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RestClientTemplateKotlin">
-
+        <activity
+            android:name=".ComposeActivity"
+            android:exported="false" />
         <activity
             android:name=".TimelineActivity"
             android:exported="false" />
